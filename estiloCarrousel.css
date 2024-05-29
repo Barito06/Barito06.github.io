@@ -1,0 +1,18 @@
+.carrousel{
+    display:flex;
+    height:300px;
+}
+.retroceder, .avanzar{
+    height: 10px;
+    width: 10px;
+    margin-right: none;
+}
+#foto_Mostrada{
+    flex-grow: 1;
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: cover;
+}
+#botonAtras, #botonAdelante{
+background-color: rgba(0, 0, 0, 0.349);
+}

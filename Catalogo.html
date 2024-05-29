@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="estiloGeneral.css">
+    <link rel="stylesheet" href="estiloCarrousel.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><p id="botonGuia">Inicio</p></a>
+        <a href="Nosotros.html"><p id="botonGuia">Nosotros</p></a>
+        <img id="logo" src="imagenes/15.png" alt="logo">
+        <a href="Catalogo.html#redesSociales"><p id="botonGuia">Siguenos</p></a>
+        <a href="Suscribete.html"><p id="botonGuia">Subscribete</p></a>
+    </header>
+
+    <div>
+        <div class="carrousel">
+            <button id="botonAtras" onclick="volver()"><img src="imagenes/volver.png" alt="anterior" class="retroceder"></button>
+            <img  src="imagenes/primera.jpg" alt="auto" id="foto_Mostrada">            
+            <button id="botonAdelante" onclick="avanzar()"><img src="imagenes/avanzar.png" alt="siguiente" class="avanzar"></button>
+        </div>
+        <script defer src="carrousel.js"></script>
+    </div>
+                        <hr>
+    <div>
+        <h2>¡Comparte nuestro gusto por las naturaleza!</h2>
+    </div>
+                        <hr>
+    <h3>Contamos con una gran variedad de elementos para ayudarte!</h3>
+    <div id="info">
+        <div id="colum" class="columna">
+            <img src="imagenes/catalogo/planta1.jpg" alt="aromaticas">
+            <p>Plantas aromaticas</p>
+            <img src="imagenes/catalogo/planta2.jpg" alt="bonsai">
+            <p>Bonsai</p>
+            <img src="imagenes/catalogo/planta3.jfif" alt="cactus">
+            <p>Cactus</p>
+            <img src="imagenes/catalogo/planta4.jfif" alt="floral">
+            <p>Florales</p>
+            <img src="imagenes/catalogo/planta5.jpg" alt="suculentas">
+            <p>suculentas</p>
+            <img src="imagenes/catalogo/planta6.jpg" alt="frutales">
+            <p>Frutales</p>
+        </div>
+        <div id="colum" class="columna">
+            <img src="imagenes/catalogo/herramienta1.jfif" alt="bandeja">
+            <p>Bandejas</p>
+            <img src="imagenes/catalogo/herramienta2.jpg" alt="macetas">
+            <p>Macetas</p>
+            <img src="imagenes/catalogo/herramienta5.jpg" alt="macetas personalizadas">
+            <p>Macetas personalizadas</p>
+            <img src="imagenes/catalogo/herramienta3.jpg" alt="herramientas">
+            <p>Herramientas</p>
+            <img src="imagenes/catalogo/herramienta4.jpg" alt="reposeras">
+            <p>elementos para el jardin</p>
+            <img src="imagenes/catalogo/herramienta6.jpg" alt="mesas">
+            <p>Posa macetas</p>
+        </div>
+        <div id="colum" class="columna">
+            <img src="imagenes/catalogo/curso1.jpg" alt="curso1">
+            <p>Curso de fertilizacion</p>
+            <img src="imagenes/catalogo/curso2.jpg" alt="curso2">
+            <p>Jardineria general</p>
+            <img src="imagenes/catalogo/curso3.jpg" alt="curso3">
+            <p>Remodelacion de jardines</p>
+            <img src="imagenes/catalogo/curso4.jfif" alt="curso4">
+            <p>Riegos y siembra</p>
+            <img src="imagenes/catalogo/curso5.jfif" alt="curso5">
+            <p>Uso de herramientas</p>
+            <img src="imagenes/catalogo/curso6.jfif" alt="curso6">
+            <p>Poda</p>
+        </div>
+
+    </div>
+                        <hr>
+    <footer class="footer">
+        <div id="Ubicacion">
+            <p><img src="imagenes/map.png" alt="Ubicacion"> Ubicacion:</p>
+            <p>La Punta - Avenida Serrana</p>
+            <p>Segundo anillo comercial</p>
+        </div>
+        <div id="contacto">
+            <p>Contactanos: </p>
+            <p>tel: 2664-856534</p>
+            <p>correo: vivero@gmail.com</p>
+        </div>
+        <div id="redesSociales">
+            <a href="https://www.facebook.com/"><img id="redes" src="imagenes/face.png" alt="face"></a>
+            <a href="https://www.instagram.com/"><img id="redes" src="imagenes/insta.png" alt="insta"></a>
+            <a href="https://x.com/"><img id="redes" class="tamanio" src="imagenes/x.png" alt="x"></a>
+            <a href="https://www.whatsapp.com/"><img id="redes" src="imagenes/whats.png" alt="whats"></a>
+        </div>
+    </footer>
+</body>
+</html>
