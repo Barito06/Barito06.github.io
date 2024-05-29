@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <link rel="stylesheet" href="estiloForm.css">
+        <link rel="stylesheet" href="estiloGeneral.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><p id="botonGuia">Inicio</p></a>
+        <a href="Nosotros.html"><p id="botonGuia">Nosotros</p></a>
+        <img id="logo" src="imagenes/15.png" alt="logo">
+        <a href="Suscribete.html#redesSociales"><p id="botonGuia">Siguenos</p></a>
+        <a href="Catalogo.html"><p id="botonGuia">Catalogo</p></a>
+    </header>
+                             <hr>
+        <h4>Si quiere formar parte de nuestra comunidad 
+            lo invitamos a llenar el siguiente formulario 
+            para ponernos en contacto con usted y brindarle 
+            toda la informacion necesaria, y en caso de ser 
+            necesario ayudarlo con sus dudas...</h4>
+                             <hr>
+        <div class="fondo">
+            <div class="ubicarForm">
+            <form novalidate onsubmit="return validarDato()">
+                <h1 style="text-align: center;">Ingrese sus datos:</h1>
+            <div>
+                <label for="nom">Nombre:<span class="obligatorio">*</span></label>
+                <input type="text" id="nom" name="Nombre" placeholder="Ingrese Nombre"><br>
+            </div>
+            <div>
+                <label for="apell">Apellido:<span class="obligatorio">*</span></label>
+                <input type="text" id="apell" name="Apellido" placeholder="ingrese Apellido"><br>
+            </div>
+            <div>
+                <label for="correo">Email:<span class="obligatorio">*</span></label>
+                <input type="email" id="correo" name="CorreoElectronico" placeholder="Ingrese Email"><br>
+            </div>
+            <div>
+                <label for="tel">Numero Telefonico:<span class="obligatorio">*</span></label>
+                <input type="tel" id="tel" name="Numero" placeholder="Ingrese su nro. de telefono"><br>
+            </div>
+            <div>
+                <button type="submit" class="botonEnviar"> Enviar </button>
+                <button type="reset" onclick="return limpiar()" class="botonLimpiar"> Limpiar </button>
+            </div>
+                
+                <ol id="comentarios"></ol>
+                <ul id="listaErrores"></ul>
+            </form>
+        </div>
+        <script src="finalValidacion.js"></script>
+    </div>
+        <hr>
+        <footer class="footer">
+            <div id="Ubicacion">
+                <p><img src="imagenes/map.png" alt="Ubicacion"> Ubicacion:</p>
+                <p>La Punta - Avenida Serrana</p>
+                <p>Segundo anillo comercial</p>
+            </div>
+            <div id="contacto">
+                <p>Contactanos: </p>
+                <p>tel: 2664-856534</p>
+                <p>correo: vivero@gmail.com</p>
+            </div>
+            <div id="redesSociales">
+                <a href="https://www.facebook.com/"><img id="redes" src="imagenes/face.png" alt="face"></a>
+                <a href="https://www.instagram.com/"><img id="redes" src="imagenes/insta.png" alt="insta"></a>
+                <a href="https://x.com/"><img id="redes" class="tamanio" src="imagenes/x.png" alt="x"></a>
+                <a href="https://www.whatsapp.com/"><img id="redes" src="imagenes/whats.png" alt="whats"></a>
+            </div>
+        </footer>
+</body>
+</html>
