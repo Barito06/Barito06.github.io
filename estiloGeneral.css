@@ -1,0 +1,158 @@
+/* Pagina Inicial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+h2{
+    text-align: center;
+}
+body {
+    padding: 0px;
+    margin: 0px; 
+    height: 700px;
+}
+a {
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: rgb(64, 110, 28);
+}
+a:active {
+    color: rgb(255, 255, 255);
+}
+a:focus {
+    outline: none;
+}
+
+hr{
+    margin: 20px 0px;
+    padding: 0;
+}
+header {
+    margin: 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+#botonGuia{
+    border-bottom: 1px solid;
+    font-size: 18px;
+}
+#logo {
+    width: auto;
+    height: 150px;
+    object-fit: contain;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+.imgArriba {
+    margin: 0;
+    background-image: url(imagenes/Hojas2.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#titulo {
+    backdrop-filter: blur(4px);
+    border: 2px solid white;
+    font-size: 70px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+#info{
+display: flex;
+}
+.columna{
+    flex-direction: column;
+    width: 33%;
+    padding: 5px;
+}
+.columna img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.listaSinOrden{
+    margin-left: 20px;
+}
+footer {
+    background-color: rgb(207, 192, 163);
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+#redes {
+    width: 40px;
+    padding: 5px;
+}
+
+#contacto {
+    width: 33%;
+}
+
+#ubicacion {
+    width: 34%;
+}
+
+.tamanio{
+    width: 54px;
+    height: 40px;
+}
+/*Articulo*/
+#colum p{
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 4px;
+    background-color: black;
+    color: white;
+}
+/*Formulario*/
+/*Conociendo*/
+#catFondoh1 {
+    display: flex;
+    background-image: url(imagenes/Hojas4.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+#presentacion p{
+    font-size: 20px;
+}
+#presentacion ol{
+    font-size: 20px;
+    margin-left: 30px;
+}
+#nosotrosimg{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
